@@ -1,0 +1,13 @@
+# Configuración local del editor / herramientas
+.claude/
+.vscode/
+.idea/
+
+# Basura del sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Archivos temporales
+*.log
+*.tmp

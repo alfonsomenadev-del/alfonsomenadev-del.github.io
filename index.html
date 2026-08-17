@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ==== EDITA ESTO: título y descripción que aparecen en Google ==== -->
+  <title>Alfonso Mena — Ingeniero en Informática y Desarrollador .NET</title>
+  <meta name="description" content="Ingeniero en Informática y Analista Programador titulado en INACAP. Desarrollo con C#, .NET y Blazor. Experiencia en Softland y proyectos propios en producción.">
+  <meta name="author" content="Alfonso Andrés Mena Sánchez">
+
+  <!-- Vista previa al compartir el link (WhatsApp, LinkedIn, X) -->
+  <meta property="og:title" content="Alfonso Mena — Ingeniero en Informática y Desarrollador .NET">
+  <meta property="og:description" content="Ingeniero en Informática y Analista Programador titulado en INACAP. Desarrollo con C#, .NET y Blazor.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Saltar al contenido</a>
+
+  <!-- ============ NAVEGACIÓN ============ -->
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a href="#inicio" class="nav__logo">AM<span class="dot">.</span></a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+        <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+        <li><a href="#experiencia" class="nav__link">Experiencia</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#formacion" class="nav__link">Formación</a></li>
+        <li><a href="#contacto" class="nav__link nav__link--cta">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow reveal">Disponible para nuevos proyectos</p>
+
+        <h1 class="hero__title reveal">
+          Alfonso Mena,<br>
+          Ingeniero en Informática y desarrollador <span class="highlight">.NET</span>.
+        </h1>
+
+        <p class="hero__text reveal">
+          Titulado en INACAP como Ingeniero en Informática y Analista Programador.
+          Dos prácticas en Softland desarrollando con C#, Blazor y .NET bajo
+          metodología ágil, y en paralelo mis propios proyectos: tiendas online,
+          CRMs móviles y sistemas de punto de venta que hoy están en uso.
+        </p>
+
+        <div class="hero__actions reveal">
+          <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+          <a href="#contacto" class="btn btn--ghost">Hablemos</a>
+        </div>
+
+        <div class="hero__socials reveal">
+          <a href="https://github.com/alfonsomenadev-del" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C17.3 4.5 18.3 4.8 18.3 4.8c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .3"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.4 20.4h-3.6v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.2V9h3.4v1.6h.1a3.8 3.8 0 013.4-1.9c3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 110-4.2 2.1 2.1 0 010 4.2zm1.8 13H3.5V9h3.6v11.4zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7c0-.9-.8-1.7-1.8-1.7z"/></svg>
+          </a>
+          <a href="mailto:alfonsomena.dev@gmail.com" aria-label="Correo">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE MÍ ============ -->
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <p class="section__label reveal">01 — Sobre mí</p>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <h2 class="section__title">Un poco de contexto</h2>
+            <!-- ==== EDITA ESTO: tu historia real, 2-3 párrafos ==== -->
+            <p>
+              Soy Ingeniero en Informática y Analista Programador, ambos títulos de
+              INACAP. Hice dos prácticas en <strong>Softland</strong>: la primera
+              analizando y manteniendo sistemas internos en Visual Basic 6, y la
+              segunda desarrollando frontend y backend con C#, Blazor y .NET, con
+              Azure DevOps, GitHub y ceremonias diarias de Scrum.
+            </p>
+            <p>
+              Antes de eso pasé cuatro años como <strong>jefe de turno en Familia MC</strong>,
+              cuadrando caja, coordinando personal y llevando el inventario a mano. Cuando
+              después les construí la tienda online, ya sabía exactamente dónde dolía:
+              por eso el pedido sale por WhatsApp y el panel imprime ticket. Es la ventaja
+              rara de haber estado del otro lado del mostrador.
+            </p>
+            <p>
+              No me caso con un stack. Uso .NET cuando el proyecto pide robustez, Kotlin
+              cuando tiene que andar sin señal, Electron cuando el cliente necesita un
+              instalador y Python cuando hay que sacar datos de donde no los quieren dar.
+              Escribo pensando en quien lea el código después.
+            </p>
+            <!-- Si quieres un toque personal, agrega aquí una línea sobre tus hobbies. -->
+            <p>
+              Ahora mismo busco un equipo donde seguir creciendo como desarrollador .NET.
+              Si tienes algo entre manos, escríbeme.
+            </p>
+
+            <a href="cv.pdf" class="link-arrow" download>
+              Descargar CV
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+
+          <aside class="about__facts reveal">
+            <!-- Datos sacados de tu CV -->
+            <div class="fact">
+              <span class="fact__num">2</span>
+              <span class="fact__label">títulos INACAP</span>
+            </div>
+            <div class="fact">
+              <span class="fact__num">2</span>
+              <span class="fact__label">prácticas en Softland</span>
+            </div>
+            <div class="fact">
+              <span class="fact__num">7</span>
+              <span class="fact__label">proyectos construidos</span>
+            </div>
+            <div class="fact">
+              <span class="fact__num">5</span>
+              <span class="fact__label">cursos y certificaciones</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROYECTOS ============ -->
+    <section class="section section--alt" id="proyectos">
+      <div class="container">
+        <p class="section__label reveal">02 — Proyectos</p>
+        <h2 class="section__title reveal">Cosas que he construido</h2>
+        <p class="section__intro reveal">
+          Una selección de trabajos recientes. Cada uno resolvió un problema real
+          (o al menos me enseñó algo nuevo).
+        </p>
+
+        <div class="projects">
+
+          <!--
+            ==== CÓMO AGREGAR UN LINK A UN PROYECTO ====
+            Cuando subas el repo a GitHub o publiques la demo, descomenta el
+            bloque .card__links de esa tarjeta y pon la URL real.
+          -->
+
+          <!-- ==== 1. FAMILIA MC ==== -->
+          <article class="card reveal">
+            <div class="card__media">
+              <!-- Reemplaza por: <img src="img/familiamc.jpg" alt="Tienda online Familia MC"> -->
+              <span class="card__placeholder">img/familiamc.jpg</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Familia MC — Tienda online</h3>
+              <p class="card__desc">
+                E-commerce completo para una tienda real: catálogo con categorías,
+                búsqueda y filtros, carrito, checkout, envío del pedido por WhatsApp
+                y panel administrativo con gestión de pedidos, estados y ticket de
+                impresión. Desplegado en producción sobre Plesk.
+              </p>
+              <ul class="tags">
+                <li>.NET 9</li>
+                <li>ASP.NET Core MVC</li>
+                <li>EF Core 9</li>
+                <li>SQL Server</li>
+                <li>Clean Architecture</li>
+              </ul>
+              <!--
+              <div class="card__links">
+                <a href="URL_DEMO" target="_blank" rel="noopener">Ver demo ↗</a>
+                <a href="URL_REPO" target="_blank" rel="noopener">Código ↗</a>
+              </div>
+              -->
+            </div>
+          </article>
+
+          <!-- ==== 2. PURAVISIÓN CRM ==== -->
+          <article class="card reveal">
+            <div class="card__media">
+              <span class="card__placeholder">img/puravision-crm.jpg</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">PuraVisión — CRM móvil</h3>
+              <p class="card__desc">
+                App Android nativa para la gestión diaria de una óptica.
+                Offline-first: Room es la fuente de verdad y sincroniza contra
+                Firestore, así que la app funciona sin señal. Autenticación con
+                roles de administrador, empleado y optometrista, incluido login
+                offline de reingreso.
+              </p>
+              <ul class="tags">
+                <li>Kotlin</li>
+                <li>Jetpack Compose</li>
+                <li>Material 3</li>
+                <li>Hilt</li>
+                <li>Room</li>
+                <li>Firebase</li>
+              </ul>
+              <!--
+              <div class="card__links">
+                <a href="URL_REPO" target="_blank" rel="noopener">Código ↗</a>
+              </div>
+              -->
+            </div>
+          </article>
+
+          <!-- ==== 3. CHANCHITO ==== -->
+          <article class="card reveal">
+            <div class="card__media">
+              <span class="card__placeholder">img/chanchito.jpg</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Chanchito — Finanzas personales</h3>
+              <p class="card__desc">
+                App de presupuesto pensada para gente con ingresos irregulares.
+                Muestra un solo número —cuánto puedes gastar hoy— congelado al
+                abrir el día para que sea un dato en el que confiar. El núcleo
+                son funciones puras sin React ni base de datos, fáciles de testear.
+              </p>
+              <ul class="tags">
+                <li>React Native</li>
+                <li>Expo</li>
+                <li>TypeScript</li>
+                <li>SQLite</li>
+                <li>Firebase</li>
+              </ul>
+              <!--
+              <div class="card__links">
+                <a href="URL_REPO" target="_blank" rel="noopener">Código ↗</a>
+              </div>
+              -->
+            </div>
+          </article>
+
+          <!-- ==== 4. COMPARADOR DE PRECIOS ==== -->
+          <article class="card reveal">
+            <div class="card__media">
+              <span class="card__placeholder">img/comparador-precios.jpg</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Comparador de precios + bot de ofertas</h3>
+              <p class="card__desc">
+                Scraper de cinco tiendas chilenas (Falabella, Tottus, Ripley, Jumbo
+                y Paris) con historial en SQLite y un bot que avisa las ofertas por
+                Telegram. Cada sitio entrega los datos distinto, así que cada tienda
+                tiene su propio adaptador; Ripley hace fingerprinting de TLS y necesitó
+                un cliente HTTP aparte para no comerse un 403.
+              </p>
+              <ul class="tags">
+                <li>Python</li>
+                <li>Web scraping</li>
+                <li>SQLite</li>
+                <li>Telegram Bot API</li>
+              </ul>
+              <!--
+              <div class="card__links">
+                <a href="URL_REPO" target="_blank" rel="noopener">Código ↗</a>
+              </div>
+              -->
+            </div>
+          </article>
+
+          <!-- ==== 5. ERP COMIDA RÁPIDA ==== -->
+          <article class="card reveal">
+            <div class="card__media">
+              <span class="card__placeholder">img/erp-comida-rapida.jpg</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">ERP Comida Rápida — Punto de venta</h3>
+              <p class="card__desc">
+                Punto de venta de escritorio para un local de comida rápida, con
+                base de datos local y sin depender de internet. Incluye POS con
+                ticket imprimible, inventario con alertas de stock mínimo, ventas
+                a crédito con abonos, corte de caja, roles de usuario y reportes.
+              </p>
+              <ul class="tags">
+                <li>Electron</li>
+                <li>JavaScript</li>
+                <li>SQLite</li>
+              </ul>
+              <!--
+              <div class="card__links">
+                <a href="URL_REPO" target="_blank" rel="noopener">Código ↗</a>
+              </div>
+              -->
+            </div>
+          </article>
+
+          <!-- ==== 6. CONTROLÓPTICA ==== -->
+          <article class="card reveal">
+            <div class="card__media">
+              <span class="card__placeholder">img/controloptica.jpg</span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">ControlÓptica — ERP de operativos</h3>
+              <p class="card__desc">
+                App de escritorio para los operativos de venta de lentes en terreno:
+                se abre la jornada con encargado, sucursal y fecha, y desde ahí se
+                registran clientes, recetas y ventas, con reportes exportables a
+                Excel. Base SQLite local —funciona sin internet en la villa— y
+                empaquetada como instalador de Windows.
+              </p>
+              <ul class="tags">
+                <li>Electron</li>
+                <li>React 19</li>
+                <li>Vite</li>
+                <li>better-sqlite3</li>
+                <li>ExcelJS</li>
+              </ul>
+              <!--
+              <div class="card__links">
+                <a href="URL_REPO" target="_blank" rel="noopener">Código ↗</a>
+              </div>
+              -->
+            </div>
+          </article>
+
+          <!-- ==== 7. ÓPTICA PURAVISIÓN WEB ==== -->
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="img/puravision-web.jpg" alt="Portada del sitio de Óptica Puravisión" loading="lazy" width="1200" height="750">
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Óptica Puravisión — Sitio web</h3>
+              <p class="card__desc">
+                Sitio corporativo enfocado en captar clientes y transmitir confianza,
+                con formulario de contacto validado y SEO trabajado (robots, sitemap,
+                metadatos). La arquitectura quedó preparada para crecer hacia agenda,
+                inventario e historial clínico sin rehacer el proyecto.
+              </p>
+              <ul class="tags">
+                <li>.NET 9</li>
+                <li>ASP.NET Core MVC</li>
+                <li>SEO</li>
+                <li>Responsive</li>
+              </ul>
+              <div class="card__links">
+                <a href="https://puravisionoptica.com" target="_blank" rel="noopener">Ver sitio en vivo ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCIA ============ -->
+    <section class="section" id="experiencia">
+      <div class="container">
+        <p class="section__label reveal">03 — Experiencia</p>
+        <h2 class="section__title reveal">Dónde he trabajado</h2>
+        <p class="section__intro reveal">
+          Dos prácticas profesionales en desarrollo y cuatro años liderando la
+          operación de un local. Las dos mitades se complementan más de lo que parece.
+        </p>
+
+        <ol class="timeline">
+
+          <li class="timeline__item reveal">
+            <header class="timeline__head">
+              <span class="timeline__date">Ene 2026 — Mar 2026</span>
+              <h3 class="timeline__role">Práctica — Ingeniería Informática</h3>
+              <p class="timeline__org">Softland · Providencia</p>
+            </header>
+            <ul class="timeline__list">
+              <li>Desarrollo frontend y backend con <strong>C#, Blazor y .NET</strong>.</li>
+              <li>Desarrollo y actualización de código para páginas y aplicaciones web.</li>
+              <li>Control de versiones con GitHub y seguimiento de tareas en Azure DevOps.</li>
+              <li>Trabajo bajo metodología ágil, con Scrum Master y reuniones diarias.</li>
+              <li>Colaboración en mejoras, correcciones y nuevas funcionalidades.</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item reveal">
+            <header class="timeline__head">
+              <span class="timeline__date">Ene 2025 — Mar 2025</span>
+              <h3 class="timeline__role">Práctica — Analista Desarrollador</h3>
+              <p class="timeline__org">Softland · Providencia</p>
+            </header>
+            <ul class="timeline__list">
+              <li>Análisis, mantención y desarrollo de los sistemas internos de la empresa.</li>
+              <li>Revisión y análisis de código heredado en <strong>Visual Basic 6</strong>.</li>
+              <li>Implementación de modificaciones en proyectos con Visual Studio 2022.</li>
+              <li>Control de versiones y gestión de código con Microsoft SourceSafe.</li>
+              <li>Mantención correctiva y mejora de funcionalidades existentes.</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item reveal">
+            <header class="timeline__head">
+              <span class="timeline__date">Jul 2021 — Dic 2025</span>
+              <h3 class="timeline__role">Jefe de turno / Atención al cliente</h3>
+              <p class="timeline__org">Familia MC · Peñaflor</p>
+            </header>
+            <ul class="timeline__list">
+              <li>Supervisión del turno y de la operación diaria del local.</li>
+              <li>Cuadratura de caja y control del proceso de cierre.</li>
+              <li>Organización y coordinación de los turnos del personal.</li>
+              <li>Control de inventario y gestión de stock.</li>
+              <li>Emisión de boletas y facturas, y resolución de requerimientos de clientes.</li>
+              <li>Liderazgo de equipo y resolución de problemas operativos.</li>
+            </ul>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <p class="section__label reveal">04 — Skills</p>
+        <h2 class="section__title reveal">Con lo que trabajo</h2>
+
+        <div class="skills">
+          <!-- ==== Sacado de tus proyectos reales. Quita o agrega lo que quieras ==== -->
+          <div class="skills__group reveal">
+            <h3>Backend &amp; Web</h3>
+            <ul class="pills">
+              <li>C#</li><li>.NET 9</li><li>ASP.NET Core MVC</li><li>Blazor</li>
+              <li>Entity Framework Core</li><li>Python</li><li>Django</li>
+            </ul>
+          </div>
+
+          <div class="skills__group reveal">
+            <h3>Frontend</h3>
+            <ul class="pills">
+              <li>JavaScript</li><li>TypeScript</li><li>React</li>
+              <li>Vite</li><li>HTML5</li><li>CSS3</li><li>Responsive</li>
+            </ul>
+          </div>
+
+          <div class="skills__group reveal">
+            <h3>Móvil &amp; Escritorio</h3>
+            <ul class="pills">
+              <li>Kotlin</li><li>Jetpack Compose</li><li>Room</li>
+              <li>React Native</li><li>Expo</li><li>Electron</li>
+            </ul>
+          </div>
+
+          <div class="skills__group reveal">
+            <h3>Bases de datos</h3>
+            <ul class="pills">
+              <li>SQL Server</li><li>SQLite</li><li>MongoDB</li>
+              <li>MariaDB</li><li>Firebase</li><li>Firestore</li>
+            </ul>
+          </div>
+
+          <div class="skills__group reveal">
+            <h3>Cloud &amp; Servidores</h3>
+            <ul class="pills">
+              <li>AWS</li><li>Windows Server</li>
+              <li>Linux Server</li><li>VirtualBox</li>
+            </ul>
+          </div>
+
+          <div class="skills__group reveal">
+            <h3>Arquitectura &amp; Proceso</h3>
+            <ul class="pills">
+              <li>Clean Architecture</li><li>MVVM</li><li>Repository Pattern</li>
+              <li>Offline-first</li><li>Scrum</li><li>Azure DevOps</li>
+            </ul>
+          </div>
+
+          <div class="skills__group reveal">
+            <h3>Herramientas</h3>
+            <ul class="pills">
+              <li>Git</li><li>GitHub</li><li>Visual Studio 2022</li><li>VS Code</li>
+              <li>Android Studio</li><li>StarUML</li><li>Draw.io</li><li>Plesk</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FORMACIÓN Y CERTIFICACIONES ============ -->
+    <section class="section section--alt" id="formacion">
+      <div class="container">
+        <p class="section__label reveal">05 — Formación</p>
+        <h2 class="section__title reveal">Títulos y certificaciones</h2>
+
+        <div class="creds">
+
+          <div class="creds__col reveal">
+            <h3 class="creds__heading">Formación académica</h3>
+            <ul class="creds__list">
+              <li class="cred">
+                <span class="cred__year">2023—2025</span>
+                <div class="cred__body">
+                  <h4 class="cred__name">Ingeniería en Informática</h4>
+                  <p class="cred__issuer">INACAP · Titulado</p>
+                </div>
+              </li>
+              <li class="cred">
+                <span class="cred__year">2022—2023</span>
+                <div class="cred__body">
+                  <h4 class="cred__name">Analista Programador</h4>
+                  <p class="cred__issuer">INACAP · Titulado</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="creds__col reveal">
+            <h3 class="creds__heading">Certificaciones y cursos</h3>
+            <ul class="creds__list">
+              <li class="cred">
+                <span class="cred__year">2024</span>
+                <div class="cred__body">
+                  <h4 class="cred__name">AWS Academy Cloud Foundations</h4>
+                  <p class="cred__issuer">AWS Academy Graduate</p>
+                </div>
+              </li>
+              <li class="cred">
+                <span class="cred__year">2024</span>
+                <div class="cred__body">
+                  <h4 class="cred__name">AWS Academy Cloud Developing</h4>
+                  <p class="cred__issuer">AWS Academy Graduate</p>
+                </div>
+              </li>
+              <li class="cred">
+                <span class="cred__year">2026</span>
+                <div class="cred__body">
+                  <h4 class="cred__name">C# TOTAL — Programador Experto</h4>
+                  <p class="cred__issuer">Curso completo de C#</p>
+                </div>
+              </li>
+              <li class="cred">
+                <span class="cred__year">2026</span>
+                <div class="cred__body">
+                  <h4 class="cred__name">Blazor desde cero</h4>
+                  <p class="cred__issuer">Curso completo de ASP.NET Blazor</p>
+                </div>
+              </li>
+              <li class="cred">
+                <span class="cred__year">2026</span>
+                <div class="cred__body">
+                  <h4 class="cred__name">GitHub Copilot para programadores .NET</h4>
+                  <p class="cred__issuer">ASP.NET Core</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section" id="contacto">
+      <div class="container container--narrow">
+        <p class="section__label reveal">06 — Contacto</p>
+        <h2 class="section__title reveal">¿Trabajamos juntos?</h2>
+        <p class="section__intro reveal">
+          Estoy abierto a propuestas, colaboraciones o simplemente a charlar sobre
+          desarrollo. Escríbeme y te respondo pronto.
+        </p>
+
+        <!--
+          El formulario usa Formspree (gratis, sin backend).
+          1) Crea una cuenta en https://formspree.io
+          2) Reemplaza TU_ID_AQUI en el action de abajo por el tuyo.
+          Mientras tanto, el botón de email de abajo funciona perfecto.
+        -->
+        <form class="form reveal" id="contactForm" action="https://formspree.io/f/TU_ID_AQUI" method="POST">
+          <div class="form__row">
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="tu@correo.com">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Cuéntame en qué estás pensando…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <p class="contact__alt reveal">
+          O directamente a
+          <a href="mailto:alfonsomena.dev@gmail.com">alfonsomena.dev@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Alfonso Mena</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
