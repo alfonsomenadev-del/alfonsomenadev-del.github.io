@@ -1,6 +1,16 @@
 # Portafolio — Alfonso Mena
 
+**En vivo: https://alfonsomenadev-del.github.io**
+
 Sitio personal en HTML, CSS y JavaScript puro. Sin dependencias, sin build, sin `npm install`.
+
+## Publicar cambios
+
+Está en GitHub Pages sobre la rama `main`. Cada push se publica solo en un par de minutos:
+
+```bash
+git add -A && git commit -m "describe tu cambio" && git push
+```
 
 ## Cómo verlo
 
