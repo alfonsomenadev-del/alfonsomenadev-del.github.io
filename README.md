@@ -61,7 +61,7 @@ Los siete proyectos ya están escritos con datos reales. Falta ponerles captura 
 | 2 | PuraVisión — CRM móvil | Kotlin, Compose, Room, Firebase | ⬜ falta `img/puravision-crm.jpg` |
 | 3 | Chanchito — Finanzas personales | Expo, React Native, TypeScript | ⬜ falta `img/chanchito.jpg` |
 | 4 | Comparador de precios + bot | Python, SQLite, Telegram | ⬜ falta `img/comparador-precios.jpg` |
-| 5 | ERP Comida Rápida — POS | Electron, SQLite | ⬜ falta `img/erp-comida-rapida.jpg` |
+| 5 | POS AMS — Punto de venta | Electron, React, TypeScript, SQLite | ✅ `img/pos-ams.png` |
 | 6 | ControlÓptica — ERP de operativos | Electron, React 19, ExcelJS | ⬜ falta `img/controloptica.jpg` |
 | 7 | Óptica Puravisión — Sitio web | .NET 9, ASP.NET Core MVC | ✅ desde producción |
 
