@@ -57,39 +57,43 @@ Los proyectos están descritos con datos reales y enlazados a los repositorios d
 
 | # | Proyecto | Stack | Código / captura |
 |---|---|---|---|
-| 1 | Familia MC — Tienda online | .NET 9, EF Core, SQL Server | Repo privado · ⬜ falta `img/familiamc.jpg` |
-| 2 | PuraVisión — CRM móvil | Kotlin, Compose, Room, Firebase | Repo privado · ⬜ falta `img/puravision-crm.jpg` |
-| 3 | PuraVisión — Gestión óptica para Windows | Electron, React, PHP, MariaDB | Repo privado · ⬜ falta captura |
+| 1 | Familia MC — Tienda online | .NET 9, EF Core, SQL Server | Repo privado · ✅ `img/familiamc.jpg` |
+| 2 | PuraVisión — CRM móvil | Kotlin, Compose, Room, Firebase | Repo privado · ⬜ requiere emulador Android |
+| 3 | PuraVisión — Gestión óptica para Windows | Electron, React, PHP, MariaDB | Repo privado · ✅ `img/puravision-desktop.png` |
 | 4 | Chanchito — Finanzas personales | Expo, React Native, TypeScript | ⬜ falta repo y `img/chanchito.jpg` |
-| 5 | Comparador de precios + bot | Python, SQLite, Telegram | Repo privado · ⬜ falta `img/comparador-precios.jpg` |
+| 5 | Comparador de precios + bot | Python, SQLite, Telegram | Repo privado · scraper CLI sin interfaz gráfica |
 | 6 | POS AMS — Punto de venta | Electron, React, TypeScript, SQLite | Repos de escritorio y Windows 7 · ✅ `img/pos-ams.png` |
 | 7 | ControlÓptica — ERP de operativos | Electron, React 19, ExcelJS | ⬜ falta repo y `img/controloptica.jpg` |
 | 8 | Óptica Puravisión — Sitio web | .NET 9, ASP.NET Core MVC | Repo privado · ✅ desde producción |
-| 9 | KAIROS.CL — Catálogo y cotizaciones | TypeScript, Vite, Node.js, Three.js | Repo privado · ⬜ falta captura |
+| 9 | KAIROS.CL — Catálogo y cotizaciones | TypeScript, Vite, Node.js, Three.js | Repo privado · ✅ `img/kviros-web.png` |
 
 El sitio de Puravisión está en vivo en **https://puravisionoptica.com** y su tarjeta
 ya enlaza ahí.
 
 ### Poner la captura
 
-En la tarjeta, reemplaza esta línea:
+En una tarjeta pendiente, reemplaza esta línea:
 
 ```html
-<span class="card__placeholder">img/familiamc.jpg</span>
+<span class="card__placeholder">img/puravision-crm.jpg</span>
 ```
 
-por:
+por (usa `puravision-crm.jpg` como ejemplo):
 
 ```html
-<img src="img/familiamc.jpg" alt="Tienda online Familia MC">
+<img src="img/puravision-crm.jpg" alt="Pantalla de PuraVisión CRM">
 ```
 
 Tamaño recomendado: **1200×750 px**, en `.jpg` o `.webp`. Mientras no haya imagen el
 hueco se queda chico a propósito; al poner el `<img>` recupera solo el formato 16:10.
 
 Los enlaces de código ya apuntan a los repositorios disponibles. Los privados requieren
-permisos de GitHub para ver su contenido. Chanchito y ControlÓptica siguen sin repositorio
-en esta cuenta. El sitio de Puravisión también enlaza a su demo de producción.
+permisos de GitHub para ver su contenido. Las capturas de Familia MC, PuraVisión Gestión
+Óptica y KAIROS.CL se tomaron al ejecutar sus interfaces localmente; Familia MC usa una
+base SQLite temporal con datos de demostración. Chanchito y ControlÓptica siguen sin
+carpeta de proyecto en este espacio, y el CRM móvil necesita un emulador Android para
+obtener una captura real. El comparador de precios es una herramienta de consola, no una
+interfaz gráfica. El sitio de Puravisión también enlaza a su demo de producción.
 
 ### Agregar un proyecto nuevo
 
