@@ -53,17 +53,19 @@ En ambos casos el orden es del más reciente al más antiguo.
 
 ## Proyectos incluidos
 
-Los siete proyectos ya están escritos con datos reales. Falta ponerles captura y link:
+Los proyectos están descritos con datos reales y enlazados a los repositorios disponibles:
 
-| # | Proyecto | Stack | Captura |
+| # | Proyecto | Stack | Código / captura |
 |---|---|---|---|
-| 1 | Familia MC — Tienda online | .NET 9, EF Core, SQL Server | ⬜ falta `img/familiamc.jpg` |
-| 2 | PuraVisión — CRM móvil | Kotlin, Compose, Room, Firebase | ⬜ falta `img/puravision-crm.jpg` |
-| 3 | Chanchito — Finanzas personales | Expo, React Native, TypeScript | ⬜ falta `img/chanchito.jpg` |
-| 4 | Comparador de precios + bot | Python, SQLite, Telegram | ⬜ falta `img/comparador-precios.jpg` |
-| 5 | POS AMS — Punto de venta | Electron, React, TypeScript, SQLite | ✅ `img/pos-ams.png` |
-| 6 | ControlÓptica — ERP de operativos | Electron, React 19, ExcelJS | ⬜ falta `img/controloptica.jpg` |
-| 7 | Óptica Puravisión — Sitio web | .NET 9, ASP.NET Core MVC | ✅ desde producción |
+| 1 | Familia MC — Tienda online | .NET 9, EF Core, SQL Server | Repo privado · ⬜ falta `img/familiamc.jpg` |
+| 2 | PuraVisión — CRM móvil | Kotlin, Compose, Room, Firebase | Repo privado · ⬜ falta `img/puravision-crm.jpg` |
+| 3 | PuraVisión — Gestión óptica para Windows | Electron, React, PHP, MariaDB | Repo privado · ⬜ falta captura |
+| 4 | Chanchito — Finanzas personales | Expo, React Native, TypeScript | ⬜ falta repo y `img/chanchito.jpg` |
+| 5 | Comparador de precios + bot | Python, SQLite, Telegram | Repo privado · ⬜ falta `img/comparador-precios.jpg` |
+| 6 | POS AMS — Punto de venta | Electron, React, TypeScript, SQLite | Repos de escritorio y Windows 7 · ✅ `img/pos-ams.png` |
+| 7 | ControlÓptica — ERP de operativos | Electron, React 19, ExcelJS | ⬜ falta repo y `img/controloptica.jpg` |
+| 8 | Óptica Puravisión — Sitio web | .NET 9, ASP.NET Core MVC | Repo privado · ✅ desde producción |
+| 9 | KAIROS.CL — Catálogo y cotizaciones | TypeScript, Vite, Node.js, Three.js | Repo privado · ⬜ falta captura |
 
 El sitio de Puravisión está en vivo en **https://puravisionoptica.com** y su tarjeta
 ya enlaza ahí.
@@ -85,11 +87,9 @@ por:
 Tamaño recomendado: **1200×750 px**, en `.jpg` o `.webp`. Mientras no haya imagen el
 hueco se queda chico a propósito; al poner el `<img>` recupera solo el formato 16:10.
 
-### Poner los links
-
-Cada tarjeta trae su bloque `.card__links` **comentado**, porque ninguno de los
-proyectos tiene todavía repo público ni demo en línea. Cuando subas uno, quita los
-`<!--` y `-->` de esa tarjeta y cambia `URL_REPO` / `URL_DEMO` por la dirección real.
+Los enlaces de código ya apuntan a los repositorios disponibles. Los privados requieren
+permisos de GitHub para ver su contenido. Chanchito y ControlÓptica siguen sin repositorio
+en esta cuenta. El sitio de Puravisión también enlaza a su demo de producción.
 
 ### Agregar un proyecto nuevo
 
